@@ -5,7 +5,7 @@ import App from './App';
 
 const mount = (el, { onNavigate, onSignIn, defaultHistory, initialPath }) => {
   const history =
-    defaultHistory ??
+    defaultHistory ||
     createMemoryHistory({
       initialEntries: [initialPath],
     });
