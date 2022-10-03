@@ -44,7 +44,7 @@ Build React app with a scalable microfrontend architecture using the `Webpack mo
 - Scroll down to find the `Default root object` field and enter `/container/latest/index.html`
 - Click `Save changes`
 - Click `Error pages`
-- Click `vCreate custom error response`
+- Click `Create custom error response`
 - Change `HTTP error code` to `403: Forbidden`
 - Change `Customize error response` to `Yes`
 - Set `Response page path` to `/container/latest/index.html`
